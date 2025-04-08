@@ -37,7 +37,7 @@ struct ExploreView: View {
                 .navigationDestination(for: Int.self) { listing in
                     ListingDetailView()
                         .toolbar(.hidden, for: .navigationBar)
-    //                    .navigationBarBackButtonHidden()
+//                        .navigationBarBackButtonHidden()
                 }
             }
             

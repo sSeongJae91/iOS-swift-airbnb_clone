@@ -9,13 +9,6 @@ import SwiftUI
 
 struct ListingItemView: View {
     
-    var images = [
-        "listing-1",
-        "listing-2",
-        "listing-3",
-        "listing-4",
-    ]
-    
     var body: some View {
         VStack(spacing: 8) {
             // images
